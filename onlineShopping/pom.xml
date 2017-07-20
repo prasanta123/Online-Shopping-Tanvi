@@ -10,8 +10,12 @@
 	<properties>
 		<javaee-version>7.0</javaee-version>
 		<spring-webmvc>4.3.9.RELEASE</spring-webmvc>
+		<jstl>1.2</jstl>
 	</properties>
 	<dependencies>
+
+
+
 		<dependency>
 			<groupId>junit</groupId>
 			<artifactId>junit</artifactId>
@@ -31,6 +35,16 @@
 			<artifactId>spring-webmvc</artifactId>
 			<version>${spring-webmvc}</version>
 		</dependency>
+
+		<!-- https://mvnrepository.com/artifact/javax.servlet.jsp.jstl/jstl -->
+		<!-- https://mvnrepository.com/artifact/javax.servlet/jstl -->
+		<dependency>
+			<groupId>jstl</groupId>
+			<artifactId>jstl</artifactId>
+			<version>${jstl}</version>
+		</dependency>
+
+
 
 	</dependencies>
 	<build>
